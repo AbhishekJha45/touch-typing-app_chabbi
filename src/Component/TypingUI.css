@@ -1,0 +1,207 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #222;
+  padding: 25px;
+  min-height: 100vh;
+}
+
+.headingAndTimerContainer {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+}
+
+.timerTextCSS {
+  font-size: 27px;
+}
+
+.mainHeading {
+  flex-grow: 1;
+  font-size: 40px;
+  color: rgb(17, 232, 161);
+}
+
+.minutesSpanCSS {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+.textCSS {
+  font-size: 30px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  width: 80%;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  border-radius: 7px;
+  background-color: #333;
+}
+
+.descriptionCSS {
+  font-size: 16px;
+  line-height: 25px;
+  width: 90%;
+  color: #c9c9c9;
+}
+
+.cardContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  border: 1px solid #555;
+  border-radius: 7px;
+}
+
+.textCSS {
+  color: #c9c9c9;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.positionCSS {
+  width: 50%;
+  height: 20%;
+  align-self: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.startBtn {
+  width: 15%;
+  height: max-content;
+  padding: 10px;
+  background-color: #ea0b68;
+  color: white;
+  font-size: 15px;
+  align-self: center;
+  border: none;
+  border-radius: 7px;
+  margin-top: 14px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.startBtn:hover {
+  background-color: #0bf24c;
+  color: white;
+}
+
+.stopContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.stopBtn {
+  width: max-content;
+  height: max-content;
+  padding: 10px 25px;
+  background-color: #f70808;
+  color: white;
+  font-size: 15px;
+  align-self: flex-end;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.stopBtn:hover {
+  background-color: #f34d0c;
+  outline: none;
+  color: white;
+}
+
+.questionKeyCSS {
+  font-size: 20px;
+  color: #c9c9c9;
+  width: 100%;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.quesKeyCSS {
+  color: #ffaf40;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.inputBoxCSS {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: black;
+  width: 100%;
+}
+
+.redText {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: red;
+  width: 100%;
+}
+
+.blackText {
+  padding: 15px;
+  font-size: 19px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: black;
+  width: 100%;
+  font-weight: 500;
+}
+
+.resultsList {
+  display: flex;
+  width: 100%;
+  align-self: center;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+.resultItem {
+  list-style-type: none;
+}
+
+.resultsHeading {
+  align-self: flex-start;
+  margin-top: 0px;
+}
+
+.resultsTextCSS {
+  font-weight: 500;
+  background-color: #fff;
+  margin: 12px;
+  padding: 15px;
+  color: #222;
+  border-radius: 15px;
+  font-size: 19px;
+}
+
+.spanTextCSS {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+}
